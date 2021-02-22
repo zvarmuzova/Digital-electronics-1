@@ -20,9 +20,13 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+```LaTeX
 equals_{Sop}^{canon.} = (\overline{b_{1}} \cdot \overline{b_{0}} \cdot \overline{a_{1}} \cdot \overline{a_{0}})+(\overline{b_{1}} \cdot b_{0} \cdot \overline{a_{1}} \cdot a_{0})+(b_{1} \cdot \overline{b_{0}} \cdot a_{1} \cdot \overline{a_{0}})+(b_{1} + b_{0} + a_{1} + a_{0})
+```
 
+```LaTeX
 less_{Pos}^{canon.} = (b_{1} + b_{0} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + a_{1} + a_{0})\cdot(\overline{b_{1}} + b_{0} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + \overline{a_{0}})
+```LaTeX
 
 ## 2
 ### "equal" K-map
@@ -331,6 +335,7 @@ begin
 end architecture testbench;
 ```
 ### console output
+```
 analyze design.vhd
 analyze testbench.vhd
 elaborate tb_comparator_4bit
@@ -339,6 +344,7 @@ testbench.vhd:95:9:@1us:(assertion error): Test failed for input combination: 01
 testbench.vhd:107:9:@1200ns:(report note): Stimulus process finished
 Finding VCD file...
 ./dump.vcd
+```
 
 ### EDA playground
 https://www.edaplayground.com/x/8Ti9
