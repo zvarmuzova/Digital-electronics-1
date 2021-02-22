@@ -26,7 +26,7 @@ equals_{Sop}^{canon.} = (\overline{b_{1}} \cdot \overline{b_{0}} \cdot \overline
 
 ```LaTeX
 less_{Pos}^{canon.} = (b_{1} + b_{0} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + a_{1} + a_{0})\cdot(\overline{b_{1}} + b_{0} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + \overline{a_{0}})
-```LaTeX
+```
 
 ## 2
 ### "equal" K-map
