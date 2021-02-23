@@ -30,12 +30,12 @@ less_{Pos}^{canon.} = (b_{1} + b_{0} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{
 
 ## 2
 ### "equal" K-map
-![Equal](Images/K-map-equal2)
+![Equal](Images/K-map-equal2.png)
 ### "greater" K-map (for SoP)
-![Greater SoP min](Images/K-map-greater2)
+![Greater SoP min](Images/K-map-greater2.png)
 greater_{SoP}^{min.} = (b_{1} \cdot \overline{a_{1}})+(b_{1}+b_{0} \cdot \overline{a_{0}})+(b_{0} \cdot \overline{a_{1}}\cdot \overline{a_{0}})
 ### "less" K-map (for PoS)
-![Less PoS min](Images/K-map-less2)
+![Less PoS min](Images/K-map-less2.png)
 less_{PoS}^{min.} = (\overline{b_{1}} + a_{1})\cdot(\overline{b_{0}}+a_{1})\cdot(a_{1}+a_{0})\cdot(\overline{b_{1}}+\overline{b_{0}})\cdot(\overline{b_{1}}+a_{0}) 
 ### design file
 ```vhdl
