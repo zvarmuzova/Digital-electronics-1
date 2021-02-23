@@ -1,5 +1,5 @@
 # Lab-02 logic
-## 1
+## 1. truth table
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -20,23 +20,21 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-```LaTeX
-equals_{Sop}^{canon.} = (\overline{b_{1}} \cdot \overline{b_{0}} \cdot \overline{a_{1}} \cdot \overline{a_{0}})+(\overline{b_{1}} \cdot b_{0} \cdot \overline{a_{1}} \cdot a_{0})+(b_{1} \cdot \overline{b_{0}} \cdot a_{1} \cdot \overline{a_{0}})+(b_{1} + b_{0} + a_{1} + a_{0})
-```
+![Equals SoP LaTeX](images/equalsSoP.png)
 
-```LaTeX
-less_{Pos}^{canon.} = (b_{1} + b_{0} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + a_{0})\cdot(b_{1} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + a_{1} + a_{0})\cdot(\overline{b_{1}} + b_{0} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + b_{0} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + a_{1} + \overline{a_{0}})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + a_{0})\cdot(\overline{b_{1}} + \overline{b_{0}} + \overline{a_{1}} + \overline{a_{0}})
-```
+![Less PoS LaTeX](images/lessPoS.png)
 
-## 2
+## 2. 2-bit comparator
 ### "equal" K-map
-![Equal](Images/K-map-equal2.png)
+![Equal](images/K-map-equal2.png)
 ### "greater" K-map (for SoP)
-![Greater SoP min](Images/K-map-greater2.png)
-greater_{SoP}^{min.} = (b_{1} \cdot \overline{a_{1}})+(b_{1}+b_{0} \cdot \overline{a_{0}})+(b_{0} \cdot \overline{a_{1}}\cdot \overline{a_{0}})
+![Greater SoP min](images/K-map-greater2.png)
+![Greater SoP min LaTeX](images/greaterSoPmin.png)
+
 ### "less" K-map (for PoS)
-![Less PoS min](Images/K-map-less2.png)
-less_{PoS}^{min.} = (\overline{b_{1}} + a_{1})\cdot(\overline{b_{0}}+a_{1})\cdot(a_{1}+a_{0})\cdot(\overline{b_{1}}+\overline{b_{0}})\cdot(\overline{b_{1}}+a_{0}) 
+![Less PoS min](images/K-map-less2.png)
+![Less PoS min LaTeX](images/lessPoSmin.png)
+
 ### design file
 ```vhdl
 
@@ -196,7 +194,7 @@ end architecture testbench;
 ### EDA playground
 https://www.edaplayground.com/x/HhCz
 
-## 3
+## 3. 4-bit comparator
 ### design file
 ```vhdl
 library ieee;
