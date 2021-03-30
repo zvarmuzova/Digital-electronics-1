@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd,1617099215,vhdl,,,,tb_d_ff_arst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_rst.vhd,1617104758,vhdl,,,,tb_d_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_latch.vhd,1617093711,vhdl,,,,tb_d_latch,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_jk_ff_rst.vhd,1617107073,vhdl,,,,tb_jk_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd,1617110858,vhdl,,,,tb_t_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_top.vhd,1617120409,vhdl,,,,tb_top,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_ff_arst.vhd,1617096892,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd,,,d_ff_arst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_ff_rst.vhd,1617104156,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/top.vhd,,,d_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_latch.vhd,1616589612,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_latch.vhd,,,d_latch,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/jk_ff_rst.vhd,1617103269,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_jk_ff_rst.vhd,,,jk_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/t_ff_rst.vhd,1617108462,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd,,,t_ff_rst,,,,,,,,
+C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/top.vhd,1617118217,vhdl,C:/Users/varmu/Documents/delvarmu/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_top.vhd,,,top,,,,,,,,
