@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../smart_controller.srcs/sources_1/new/stc.vhd" \
+"../../../../smart_controller.srcs/sim_1/new/tb_stc.vhd" \
+
+# Do not sort compile order
+nosort
