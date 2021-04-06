@@ -4,7 +4,7 @@
 ![State table](images/state_table_1.png)
 
 ### Figure with connection of RGB LEDs on Nexys A7 boerd and completed table with color settings
-![Conection of RGB LEDs](images/connection_rgb)
+![Connection of RGB LEDs](images/connection_rgb.png)
 ![Table color settings](images/table_colors.png)
 
 ## 2. Traffic light controller
